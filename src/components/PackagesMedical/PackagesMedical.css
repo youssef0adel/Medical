@@ -1,0 +1,16 @@
+.middle
+{
+    transform: translateY(-2rem) scale(1.05);
+    cursor: pointer;
+}
+
+.hover
+{
+    transition: .5s;
+    cursor: pointer;
+}
+
+.hover:hover
+{
+    transform: translateY(-2rem) scale(1.05);
+}

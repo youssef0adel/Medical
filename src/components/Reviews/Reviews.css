@@ -1,0 +1,11 @@
+.slide-img
+{
+    width: 6rem;
+}
+
+
+.card-1
+{
+    box-shadow: 0px 0px 30px rgba(0, 128, 255, 0.21);
+    width: 75%;
+}

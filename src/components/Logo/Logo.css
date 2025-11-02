@@ -1,0 +1,70 @@
+.Logo-list
+{
+    gap: 3rem;
+    display: grid;
+    grid-template-areas: "l1 l2 l3 l4 l5";
+}
+
+.logo-1
+{
+    grid-area: l1;
+}
+.logo-2
+{
+    grid-area: l2;
+}
+.logo-3
+{
+    grid-area: l3;
+}
+.logo-4
+{
+    grid-area: l4;
+}
+.logo-5
+{
+    grid-area: l5;
+}
+
+.logo-op
+{
+    text-align: center;
+}
+.logo-op img
+{
+    transition: .5s ease-out;
+    opacity: .5;
+    padding: 1rem;
+    position: relative;
+}
+
+.logo-op:hover img
+{
+    opacity: 1;
+    transform: scale(1.1);
+    
+}
+
+.logo-op .logo-icon
+{
+    transition: .2s;
+    transform: scale(0)
+}
+
+.logo-op:hover .logo-icon
+{
+    transform: scale(1)
+}
+
+@media(max-width:1024px)
+{
+    .Logo-list
+{
+    gap: 3rem;
+    display: grid;
+    grid-template-areas: 
+    "l1 l2"
+    "l3 l4"
+    "l5 l5";
+}
+}

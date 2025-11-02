@@ -1,0 +1,66 @@
+:root
+{
+    --main-color:#285bbb;
+    --second-color:#1c9dbf;
+}
+.card img
+{
+   width: 5rem;
+   transition: .5s;
+}
+.card button
+{
+   transform: translateY(1.8rem);
+}
+
+.card
+{
+   transition: .5s;
+}
+.card h4
+{
+   transition: .5s;
+}
+.card a
+{
+   transition: .5s;
+}
+
+.card:hover
+{
+    background-color: var(--second-color);
+    transform: translateY(2rem);
+}
+
+.card .img2 
+{
+    position: absolute;
+    opacity: 0;
+}
+.card:hover .img2 {
+    position: static;
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+.card:hover .img1 {
+    position: absolute;
+    opacity: 0;
+    transform: rotateY(360deg);
+}
+.card:hover button {
+background-color: white;
+color: var(--main-color);
+}
+.card:hover a {
+color: var(--second-color);
+}
+.card:hover h4 {
+color: white;
+}
+
+.ServicesCard
+{
+    background-image: url(../../assets/heart.png);
+    background-repeat: no-repeat;
+    background-position:right 500px;
+}

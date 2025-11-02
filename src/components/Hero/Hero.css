@@ -1,0 +1,48 @@
+.slide-1
+{
+    background-image: url(../../assets/slider3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.slide-2
+{
+    background-image: url(../../assets/slider-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+
+.hero
+{
+    height: 100vh;
+}
+
+.fs-7
+{
+    font-size: 60px;
+}
+
+.buttons
+{
+    bottom: 3rem;
+    left: 3rem;
+    
+}
+
+
+
+@media(max-width:1024px)
+{
+    .fs-7
+{
+    font-size: 20px;
+}
+.hero
+{
+    height: 50vh;
+}
+}

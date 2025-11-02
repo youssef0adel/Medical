@@ -1,0 +1,42 @@
+.Experience-title
+{
+    background-image: url(../../assets/heart.png);
+    background-repeat: no-repeat;
+    background-position: 50% -15%;
+}
+
+.card-layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #285bbbdb;
+    
+}
+
+.card-layer h1
+{
+    font-size: 100px;
+}
+
+.Experience-card
+{
+    transition: .5s;
+}
+
+.Experience-card:hover
+{
+    transform: translateY(1rem);
+    
+}
+.Experience-card .card-top
+{
+    transition: .5s;
+}
+.Experience-card:hover .card-top
+{
+    box-shadow: 0px 0px 10px #285bbb ;
+    
+}

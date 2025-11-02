@@ -1,0 +1,19 @@
+.About-Services-img2
+{
+    transform: translateY(-3rem);
+}
+
+.About-Services-caption
+{
+    background-image: url(../../assets/heart.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+
+@media(max-width:1024px)
+{
+    .About-Services-img2
+{
+    transform: translateY(0rem);
+}
+}

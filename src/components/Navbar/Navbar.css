@@ -1,0 +1,180 @@
+.Nav-icon {
+    width: 20rem;
+}
+
+.second-Nav {
+    transform: translateY(1.5rem);
+}
+
+.social div {
+    padding: 20px;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.social div i {
+    transition: .3s;
+}
+
+.social .facebook:hover {
+    background-color: rgb(0, 55, 128);
+}
+
+.social .twitter:hover {
+    background-color: rgb(0, 102, 255);
+}
+
+.social .linkedin:hover {
+    background-color: rgb(8, 94, 206);
+}
+
+.social div:hover i {
+    transform: rotateY(360deg);
+}
+
+.first-Nav .active {
+    color: white;
+}
+
+.first-Nav .active::before {
+    width: 3px;
+    height: 15px;
+    content: "";
+    background-color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+.second-Nav .active {
+    color: white;
+}
+
+.second-Nav .active::before {
+    width: 3px;
+    height: 15px;
+    content: "";
+    background-color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+
+
+li {
+    position: relative;
+
+}
+
+li a {
+    color: rgba(255, 255, 255, 0.386);
+    transition: .5s;
+}
+
+li a:hover {
+    color: white;
+}
+
+
+
+.nav-2 {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+    transform: translateY(0);
+}
+
+.nav-2-active {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20rem);
+    transition: .5s;
+}
+
+.nav-1 {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+
+.nav-1-active {
+    opacity: 0;
+    transform: translateY(-20rem);
+    transition: .5s;
+}
+
+.second-Nav {
+    box-shadow: 0px 0px 20px rgba(0, 102, 255, 0.397);
+}
+
+.nav-logo-2 {
+    width: 8rem;
+}
+
+
+
+
+
+
+
+
+
+.nav-buttom-inner {
+    background-color: #1e1e1e;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.inner {
+    padding: 8px 0;
+}
+
+.item {
+    flex: 1;
+}
+
+.nav-item {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    padding: 0;
+}
+
+.nav-item i {
+    font-size: 18px;
+}
+
+.nav-item.active {
+    color: #1713f4a7;
+}
+
+.nav-item:hover {
+    color: #285bbb;
+}
+
+.Nav-buttom 
+{
+    display: none;
+}
+
+@media(max-width:1024px) {
+    .first-Nav {
+        display: none;
+    }
+
+    .second-Nav {
+        display: none;
+    }
+
+    .Nav-buttom 
+    {
+        display: block;
+    }
+
+}

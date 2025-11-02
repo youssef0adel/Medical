@@ -1,0 +1,76 @@
+.appointment-section {
+  background-color: #f8f9fa;
+}
+
+.bg-main {
+  background-color: #007bff; 
+}
+
+.appointment-img img {
+  object-fit: cover;
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 12px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}
+
+.btn {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+
+.appointment-img
+{
+    transform: translateX(7rem);
+}
+
+.appointment-form
+{
+  background-image: url(../../assets/heart.png);
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  padding: 2rem;
+}
+.form-title
+{
+  padding: 2rem;
+}
+
+form .row
+{
+  padding: 2rem;
+}
+@media(max-width:1024px)
+{
+  .appointment-img
+{
+    transform: translateX(0rem);
+}
+.form-title
+{
+  padding: 0rem;
+}
+
+form .row
+{
+  padding: 0rem;
+}
+}
+

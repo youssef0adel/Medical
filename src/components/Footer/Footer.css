@@ -1,0 +1,15 @@
+.Footer
+{
+    border-radius: 10rem 0 0 0;
+}
+
+.link
+{
+    transition: .2s;
+    
+}
+
+.link:hover
+{
+    transform: translateX(.5rem);
+}

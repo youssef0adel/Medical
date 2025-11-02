@@ -1,0 +1,16 @@
+.Hero-2
+{
+    background-image: url(../../assets/slider3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    border-radius: 0 0 10rem 0;
+}
+
+@media(max-width:1024px)
+{
+    .Hero-2
+    {
+        background-size: 100% 100%;
+    }
+}

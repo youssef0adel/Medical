@@ -1,0 +1,45 @@
+.Card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apply-button button
+{
+    background-color: white;
+    color: black;
+    padding: 30px 60px;
+    border-radius: 10px;
+    transition: .5s;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.319);
+}
+.apply-button button:hover
+{
+    background-color: #1c9dbf;
+    color: white;
+}
+
+.apply-button
+{
+    transform: translateX(12rem);
+}
+
+@media(max-width:1024px)
+{
+    .apply-button
+{
+    transform: translateX(0rem);
+}
+.Card
+{
+    display: block;
+    text-align: center;
+}
+.Apply
+{
+    display: flex;
+    justify-content: center;
+}
+}
+

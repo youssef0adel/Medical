@@ -1,0 +1,74 @@
+.info-icon
+{
+    background-color: #285bbb;
+    transition: .2s;
+}
+
+.info-sec:hover .info-icon
+{
+    background-color: #00aeff;
+    transform: translateY(-.2rem);
+}
+
+.info-sec
+{
+    cursor: pointer;
+}
+
+.inputs-form-2
+{
+    background-image: url(../../assets/woman-doctor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.inputs-form-layer
+{
+
+    background-image: linear-gradient(90deg, rgb(40 91 187 / .93), rgb(40 91 187 / .93));
+    
+}
+
+.inputs-form-2 input
+{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.inputs-form textarea
+{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-btn
+{
+    background-color: #00aeff;
+}
+
+.form-title
+{
+    background-image: url(../../assets/heart.png);
+    background-repeat: no-repeat;
+}
+
+.info-sec
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (max-width:768px)
+{
+.info-sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+}

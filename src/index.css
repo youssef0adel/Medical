@@ -1,0 +1,74 @@
+:root
+{
+    --main-color:#285bbb;
+    --second-color:#1c9dbf;
+}
+
+body
+{
+    font-family:'Nunito';
+    font-weight: bold;
+}
+
+.bg-main{
+    background-color: var(--main-color);
+}
+.text-main{
+    color: var(--main-color);
+}
+.bg-second{
+    background-color: var(--second-color);
+}
+.text-second{
+    color: var(--second-color);
+}
+
+.Btn
+{
+    color: white;
+    transition: .5s;
+    background-color: var(--second-color);
+    border: none;
+    border-radius: .5rem;
+}
+.Btn:hover
+{
+    background-color: var(--main-color);
+}
+
+h1
+{
+    font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+}
+
+li
+{
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.Btn-2
+{
+    background-color: var(--main-color);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    transition: .5s;
+    border: none;
+}
+
+.Btn-2:hover
+{
+    background-color: var(--second-color);
+}

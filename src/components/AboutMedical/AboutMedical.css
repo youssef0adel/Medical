@@ -1,0 +1,17 @@
+.About-img img:hover
+{
+    transform: scale(1.05);
+}
+.About-img:hover .img-button
+{
+    transform: scale(1.05);
+}
+.About-img .img-button
+{
+    transition: .5s;
+}
+
+.About-img img
+{
+    transition: 1s ease-out;
+}

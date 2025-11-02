@@ -1,0 +1,167 @@
+.bg
+{
+    background-image: url(../../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.s1-img
+{
+    box-shadow: 0 0 30px #1c9cbf66;
+}
+
+.img-button
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.s2-img img:hover
+{
+    transform: scale(1.05);
+}
+.s2-img:hover .img-button
+{
+    transform: scale(1.05);
+}
+.s2-img .img-button
+{
+    transition: .5s;
+}
+
+.s2-img img
+{
+    transition: 1s ease-out;
+}
+
+ .sk-percentage-1
+{
+    height: .3rem;
+    background-color: rgba(215, 215, 215, 0.501);
+}
+.sk-percentage-2
+{
+    height: .3rem;
+    
+}
+.sk-1 .sk-percentage-2
+{
+   width: 90%; 
+}
+.sk-2 .sk-percentage-2
+{
+   width: 80%; 
+}
+.sk-3 .sk-percentage-2
+{
+   width: 95%; 
+}
+.sk-4 .sk-percentage-2
+{
+   width: 87%; 
+}
+
+.s3-layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+     transition: .5s;
+     background-color:#1c9cbf27;
+}
+
+.s3-img:hover .s3-layer
+{
+    background-color:#1c9cbf66 ;
+}
+.s3-inner
+{
+    
+    transform: translateY(7rem);
+    
+    transition: .5s;
+}
+
+.s3-img:hover .s3-inner
+{
+    transform: translateY(3rem);
+}
+
+.s3-img
+{
+    box-shadow: 0px 0px 15px #1c9cbf88;
+}
+
+.s4-layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1c9cbf88;
+    opacity: 0;
+    transition: .5s;
+}
+
+.s4-item:hover .s4-layer
+{
+    opacity: 1;
+}
+
+.s4-item img
+{
+    transition: .5s;
+}
+.s4-item:hover img
+{
+    transform: scale(1.1);
+}
+
+.doctors
+{
+    gap: 2rem;
+    display: grid;
+    grid-template-areas: 
+    "s1 s1 s2 s2 s2 s3 s3"
+    "s4 s4 s2 s2 s2 s5 s5"
+    ;
+}
+
+.s4-item-1
+{
+    grid-area: s1;
+}
+.s4-item-2
+{
+    grid-area: s2;
+}
+.s4-item-3
+{
+    grid-area: s3;
+}
+.s4-item-4
+{
+    grid-area: s4;
+}
+.s4-item-5
+{
+    grid-area: s5;
+}
+
+@media(max-width:1024px)
+{
+    .doctors
+{
+    gap: 2rem;
+    display: grid;
+    grid-template-areas: 
+    "s5 s5 s2 s2"
+    "s3 s3 s4 s4"
+    "s1 s1 s1 s1"
+    ;
+}
+}

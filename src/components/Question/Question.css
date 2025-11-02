@@ -1,0 +1,69 @@
+
+
+.Questions-inner
+{
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+    transition: 1s;
+    visibility: hidden;
+    color: white;
+}
+.Questions-upper
+{
+    cursor: pointer;
+}
+.Questions-upper:focus-within + .Questions-inner {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+  
+}
+
+
+.s-1
+{
+    color: gray;
+    transition: .5s ease-in;
+}
+
+.s-1:hover
+{
+    background-color: #285bbb;
+}
+
+.common-Questions:focus-within  .s-1 {
+    background-color:#285bbb;
+    color: white;
+}
+
+.Questions-upper:focus h6
+{
+    color: white;
+}
+.Questions-upper h6
+{
+    transition: .5s;
+}
+
+button{
+    color: white;
+    background-color: #285bbb;
+    transition: .2s ease-in-out;
+}
+
+button:hover
+{
+    background-color: rgb(10, 42, 160);
+}
+
+textarea
+{
+    height: 10rem;
+    outline: none;
+}
+
+input
+{
+    outline: 0;
+}
