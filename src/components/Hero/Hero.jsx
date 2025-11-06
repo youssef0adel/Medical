@@ -8,7 +8,7 @@ const Hero = () => {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner position-relative">
-          <div className="carousel-item active " data-bs-interval="9000">
+          <div className="carousel-item  " data-bs-interval="9000">
             <section className="hero slide-1 ">
               <div className="p-3 container d-flex align-items-center h-100 overflow-hidden">
                 <div className="hero-caption text-center text-md-start">
@@ -23,7 +23,7 @@ const Hero = () => {
               </div>
             </section>
           </div>
-          <div className="carousel-item " data-bs-interval="">
+          <div className="carousel-item active" data-bs-interval="9000">
             <section className="hero slide-2">
               <div className="container d-flex justify-content-center align-items-center h-100">
                 <div className="hero-caption text-center d-flex flex-column justify-content-center align-items-center">
