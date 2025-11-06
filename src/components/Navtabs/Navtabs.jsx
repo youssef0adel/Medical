@@ -89,8 +89,7 @@ const Navtabs = () => {
             </li>
           </ul>
           <div className="tab-content" id="myTabContent">
-            <div
-              className="tab-pane fade show active p-3"
+            <div className="tab-pane fade show active p-3"
               id="s1"
               role="tabpanel"
               aria-labelledby="home-tab"
@@ -138,8 +137,7 @@ const Navtabs = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="tab-pane fade p-3"
+            <div className="tab-pane fade p-3"
               id="s2"
               role="tabpanel"
               aria-labelledby="profile-tab"
@@ -155,11 +153,11 @@ const Navtabs = () => {
                         title="Doctor"
                       />
                     </NavLink>
-                    <div className="img-button d-flex rounded-3 overflow-hidden">
-                      <div className="btn-1 bg-white px-5 text-center d-flex align-items-center">
+                    <div className="img-button d-flex rounded-3 overflow-hidden ">
+                      <div className="btn-1 bg-white p-3 text-center d-flex align-items-center">
                         <i className="fa-solid fa-play text-main fa-2xl"></i>
                       </div>
-                      <div className="btn-2 text-center bg-main p-4 ">
+                      <div className="btn-2 text-center bg-main  ">
                         <h6>About Medical</h6>
                         <p>Watch the Video</p>
                       </div>
@@ -216,8 +214,7 @@ const Navtabs = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="tab-pane fade p-3"
+            <div className="tab-pane fade p-3"
               id="s3"
               role="tabpanel"
               aria-labelledby="profile-tab"
@@ -276,8 +273,7 @@ const Navtabs = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="tab-pane fade p-3"
+            <div className="tab-pane fade p-3"
               id="s4"
               role="tabpanel"
               aria-labelledby="profile-tab"
@@ -325,8 +321,7 @@ const Navtabs = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="tab-pane fade p-3"
+            <div className="tab-pane fade p-3"
               id="s5"
               role="tabpanel"
               aria-labelledby="profile-tab"

@@ -19,7 +19,7 @@ const ServicesCard=()=>{
                         <div className="card text-center position-relative d-flex flex-column  align-items-center py-3">
                             <img className="img1" src={img1} alt="Stomach img" title="Stomach img" />
                             <img className="img2" src={img1h} alt="Stomach img" title="Stomach img" />
-                            <h4 className="py-3">Digestive System</h4>
+                            <h4 className="py-3">Digstve System</h4>
                             <button className="Btn p-2"><a className="p-2" href="#">More details</a></button>
                         </div>
                     </div>

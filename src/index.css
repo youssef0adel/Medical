@@ -72,3 +72,8 @@ li
 {
     background-color: var(--second-color);
 }
+
+.row
+{
+    margin: 0;
+}

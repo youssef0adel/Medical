@@ -19,7 +19,7 @@ const Appointment = () => {
           </div>
 
           
-          <div className="col-md-8 bg-main text-white rounded-3 p-5">
+          <div className="col-md-8 bg-main text-white rounded-3 p-md-5">
             <div className="appointment-form p-md-5">
               <div className="form-title mb-4 ">
                 <h1 className="fw-bold">Make an Appointment</h1>
